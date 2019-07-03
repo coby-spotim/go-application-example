@@ -10,7 +10,7 @@ import (
 func main() {
 	registry := registries.NewSimpleRegistry(getEnv())
 	router := handlers.SetupRouter(registry)
-	err := router.Run(":8080")
+	err := router.Run(registry.Config.GetString("PORT"))
 	if err != nil {
 		panic(err)
 	}
