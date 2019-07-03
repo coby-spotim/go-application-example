@@ -1,7 +1,7 @@
 package db
 
 import (
-	"github.com/coby-spotim/gin-example/pkg/types"
+	"github.com/coby-spotim/go-application-example/pkg/types"
 )
 
 type DB interface {

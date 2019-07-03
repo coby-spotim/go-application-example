@@ -1,8 +1,8 @@
 package db
 
 import (
-	"github.com/coby-spotim/gin-example/internal/gin-api-example/errors"
-	"github.com/coby-spotim/gin-example/pkg/types"
+	"github.com/coby-spotim/go-application-example/internal/gin-api-example/errors"
+	"github.com/coby-spotim/go-application-example/pkg/types"
 )
 
 type Mock struct {

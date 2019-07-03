@@ -1,7 +1,7 @@
 package handlers
 
 import (
-	"github.com/coby-spotim/gin-example/internal/gin-api-example/registries"
+	"github.com/coby-spotim/go-application-example/internal/gin-api-example/registries"
 	"github.com/gin-gonic/gin"
 )
 
