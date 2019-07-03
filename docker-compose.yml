@@ -1,0 +1,12 @@
+version: "3"
+
+services:
+  web:
+    build:
+      context: .
+      dockerfile: Dockerfile
+      args:
+        - GO_ENV=development
+    command: sh -c './gin-api-example'
+    ports:
+      - 8080:8080
