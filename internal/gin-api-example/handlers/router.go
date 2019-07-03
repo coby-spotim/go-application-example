@@ -1,15 +1,14 @@
 package handlers
 
 import (
+	"github.com/coby-spotim/go-application-example/internal/gin-api-example/middlewares"
 	"github.com/coby-spotim/go-application-example/internal/gin-api-example/registries"
 	"github.com/gin-gonic/gin"
 )
 
 func SetupRouter(registry *registries.SimpleRegistry) *gin.Engine {
-	router := gin.Default()
-
-	// Simple Ping/Pong
-	router.GET("/ping", Ping)
+	router := gin.New()
+	router.Use(middlewares.ResponseTime(), middlewares.Health(), middlewares.MatchedPath())
 
 	// Get/Create User
 	router.GET("/user/:name", withRegistry(GetPerson, registry))
