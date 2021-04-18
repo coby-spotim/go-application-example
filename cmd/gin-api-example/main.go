@@ -3,8 +3,8 @@ package main
 import (
 	"os"
 
-	"github.com/coby-spotim/go-application-example/internal/gin-api-example/handlers"
-	"github.com/coby-spotim/go-application-example/internal/gin-api-example/registries"
+	"github.com/probably-not/go-application-example/internal/gin-api-example/handlers"
+	"github.com/probably-not/go-application-example/internal/gin-api-example/registries"
 )
 
 func main() {

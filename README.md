@@ -6,7 +6,7 @@ This is an example Go application which can be used as a template to build Go pr
 
 This project currently contains a single command and application, the `gin-api-example`.
 
-In order to run the application, you can either use the Dockerfile and docker-compose file in the root of the repository, or run the [`cmd/gin-api-example/main.go`](https://github.com/coby-spotim/go-application-example/blob/master/cmd/gin-api-example/main.go) file.
+In order to run the application, you can either use the Dockerfile and docker-compose file in the root of the repository, or run the [`cmd/gin-api-example/main.go`](https://github.com/probably-not/go-application-example/blob/master/cmd/gin-api-example/main.go) file.
 
 ## Structure
 

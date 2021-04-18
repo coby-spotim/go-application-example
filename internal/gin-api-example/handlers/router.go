@@ -1,9 +1,9 @@
 package handlers
 
 import (
-	"github.com/coby-spotim/go-application-example/internal/gin-api-example/middlewares"
-	"github.com/coby-spotim/go-application-example/internal/gin-api-example/registries"
 	"github.com/gin-gonic/gin"
+	"github.com/probably-not/go-application-example/internal/gin-api-example/middlewares"
+	"github.com/probably-not/go-application-example/internal/gin-api-example/registries"
 )
 
 func SetupRouter(registry *registries.SimpleRegistry) *gin.Engine {

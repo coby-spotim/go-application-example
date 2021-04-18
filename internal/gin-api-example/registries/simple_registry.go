@@ -1,7 +1,7 @@
 package registries
 
 import (
-	"github.com/coby-spotim/go-application-example/internal/gin-api-example/db"
+	"github.com/probably-not/go-application-example/internal/gin-api-example/db"
 	"github.com/spf13/viper"
 )
 

@@ -8,7 +8,7 @@ import (
 	"net/url"
 	"time"
 
-	"github.com/coby-spotim/go-application-example/pkg/types"
+	"github.com/probably-not/go-application-example/pkg/types"
 )
 
 type ApiClient struct {
